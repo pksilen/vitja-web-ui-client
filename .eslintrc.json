@@ -1,0 +1,75 @@
+{
+  "root": true,
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue/recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parser": "vue-eslint-parser",
+  "parserOptions": {
+    "parser": "@typescript-eslint/parser",
+    "sourceType": "module"
+  },
+  "plugins": ["@typescript-eslint"],
+  "env": {
+    "serviceworker": true,
+    "browser": true,
+    "jest": true
+  },
+  "rules": {
+    "operator-linebreak": "off",
+    "max-len": [
+      "error",
+      {
+        "code": 300
+      }
+    ],
+    "comma-dangle": "off",
+    "space-before-function-paren": "off",
+    "func-names": "off",
+    "indent": "off",
+    "function-paren-newline": "off",
+    "arrow-parens": "off",
+    "no-use-before-define": "off",
+    "no-console": "off",
+    "object-curly-newline": "off",
+    "class-methods-use-this": "off",
+    "no-else-return": "off",
+    "implicit-arrow-linebreak": "off",
+    "no-confusing-arrow": "off",
+    "no-plusplus": "off",
+    "import/no-named-default": "off",
+    "vue/singleline-html-element-content-newline": "off",
+    "vue/array-bracket-spacing": 1,
+    "vue/arrow-spacing": 1,
+    "vue/block-spacing": 1,
+    "vue/brace-style": 1,
+    "vue/camelcase": 1,
+    "vue/eqeqeq": 1,
+    "vue/no-static-inline-styles": 1,
+    "vue/html-self-closing": ["error", {
+      "html": {
+        "void": "always",
+        "normal": "always",
+        "component": "always"
+      },
+      "svg": "always",
+      "math": "always"
+    }],
+    "vue/max-attributes-per-line": ["error", {
+    "singleline": 4,
+    "multiline": {
+      "max": 1,
+      "allowFirstLine": false
+    }
+  }],
+    "@typescript-eslint/explicit-function-return-type": [
+      "error",
+      {
+        "allowExpressions": true
+      }
+    ]
+  },
+  "settings": {}
+}
