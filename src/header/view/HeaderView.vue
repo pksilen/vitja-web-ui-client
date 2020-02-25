@@ -2,8 +2,8 @@
   <header>
     <div class="logo">VITJA</div>
     <nav>
-      <span><a>HOME</a></span>
-      <span><a>BUY</a></span>
+      <span><router-link to="/home">HOME</router-link></span>
+      <span><router-link to="/buy">BUY</router-link></span>
       <span><a>MY FAVORITES</a></span>
       <span><a>SELL</a></span>
       <span><a>MY SALES</a></span>
