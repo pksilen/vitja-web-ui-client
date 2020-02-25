@@ -1,0 +1,19 @@
+.uk-navbar-nav > li > a,
+.uk-navbar-toggle {
+  color: rgba(0, 0, 0, 0.47);
+  font-size: 1.3rem;
+  font-family: 'Playfair Display', serif;
+  min-height: 0;
+  padding: 0 2.5rem;
+}
+
+.uk-navbar-item {
+    min-height: 0;
+}
+
+.uk-search-input {
+    color: rgba(0, 0, 0, 0.47);
+    font-size: 1.3rem;
+    font-family: 'Playfair Display', serif;
+    width: 40rem;
+}

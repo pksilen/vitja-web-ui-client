@@ -1,0 +1,15 @@
+body {
+  color: rgba(30, 30, 30, 0.65);
+  font-family: 'Source Sans Pro', serif;
+}
+
+a {
+  color: rgba(0, 0, 0, 0.47) !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #654321 !important;
+  cursor: pointer !important;
+  text-decoration: underline !important;
+}

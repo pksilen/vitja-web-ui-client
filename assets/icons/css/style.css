@@ -1,9 +1,0 @@
-a {
-  color: rgba(0, 0, 0, 0.47);
-  text-decoration: none;
-}
-
-a:hover {
-  color: #654321;
-  cursor: pointer;
-}
