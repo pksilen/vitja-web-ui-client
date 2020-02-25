@@ -4,10 +4,10 @@
     <nav>
       <span><router-link to="/home">HOME</router-link></span>
       <span><router-link to="/buy">BUY</router-link></span>
-      <span><a>MY FAVORITES</a></span>
-      <span><a>SELL</a></span>
-      <span><a>MY SALES</a></span>
-    </nav>
+      <span><router-link to="/my-favorites">MY FAVORITES</router-link></span>
+      <span><router-link to="/sell">SELL</router-link></span>
+      <span><router-link to="/my-sales">MY SALES</router-link></span>
+    </nav>´
     <div class="login">
       <img alt="Login icon" src="../../../assets/icons/iconfinder_key_1_193742.svg" />
       <div>MIKAELA F.</div>
