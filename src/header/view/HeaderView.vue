@@ -33,9 +33,11 @@
         />
       </div>
     </nav>
-    <div class="login">
-      <span uk-icon="lock" />
-      <div>MIKAELA F.</div>
+    <div class="icons">
+      <span class="icon" uk-icon="user" />
+      <span class="icon" uk-icon="cart" />
+      <span class="badge uk-badge">3</span>
+      <span class="icon" uk-icon="sign-out" />
     </div>
   </header>
 </template>
@@ -65,15 +67,23 @@
     line-height: 3rem;
   }
 
-  .login {
+  .icons {
     align-items: center;
     color: rgba(0, 0, 0, 0.47);
     font-size: 1rem;
     font-family: 'Playfair Display', serif;
     display: flex;
 
-    img {
-      height: 1.8rem;
+    .icon {
+      margin-left: 1rem;
+    }
+
+    .badge {
+      background-color: red;
+      font-family: 'Roboto Mono', serif;
+      font-size: 1rem;
+      font-weight: 300;
+      margin-left: 0.1rem;
     }
   }
 </style>
